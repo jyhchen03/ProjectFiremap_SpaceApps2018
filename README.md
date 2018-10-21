@@ -1,5 +1,5 @@
 # Project-Firemap
-Built during the NASA/CSA 2018 Space Apps Hackathon
+Built during the NASA/CSA 2018 Space Apps Hackathon. View "index.html" for the completed program, which runs in any browser.
 
 This is a web-based interactive map that displays regions of potential risk for wildfires with user interaction.
 
