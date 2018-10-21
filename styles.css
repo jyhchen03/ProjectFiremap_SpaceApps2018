@@ -1,0 +1,319 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	font-size:1em;
+	color:#323232;
+	background-color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Hyperlink Styles: */
+
+button {
+	color:#323232;
+	text-decoration:none;
+	outline:none;
+}
+
+a img{
+	border:none;
+}
+
+/* Headings: */
+
+h1,h2,h3{
+	font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	/* #SHADOWS# text-shadow:0 1px 1px black; */
+}
+
+#headerbar{
+	background-color: #38354B;
+	font-size: 5.5em;
+	padding-left: 16.8%;
+	padding-right: 2em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+h1{
+	/* The logo text */
+	font-size:3.5em;
+    font-family:Raleway;
+	text-transform:uppercase;
+	color: #E8DCCE;
+}
+
+.right{
+    width:30%;
+    background-color: #FFFFFF;
+    color: #54494B;
+    height: 52.6em;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+h3{
+	/* The slogan text */
+	font-family:forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size:2em;
+	font-weight:normal;
+}
+
+
+h2{
+	font-size:2.2em;
+	font-weight:normal;
+	letter-spacing:0.01em;
+	text-transform:uppercase;
+    padding-top: 50%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+p{
+	font-family: "Helvetica";
+    font-size: 1.2em;
+	line-height:1.5em;
+    padding-left: 10%;
+    padding-bottom: 2.3em;
+}
+
+c{
+    font-family: "Helvetica";
+    font-size:1.1em;
+    padding-bottom:1em;
+    line-height:1.5em;
+}
+
+#poutside{
+	padding-bottom: 1em;
+    padding-left:20%;
+	padding-right: 20%;
+}
+
+.bonus {
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom:1em;
+}
+
+.line{
+	/* The dividing line: */
+	height:0.5px;
+	background-color:#24404c;
+	border-bottom:1px solid #416371;
+	margin: 0;
+	overflow:hidden;
+}
+
+div.article .line{
+	/* The dividing line inside of the article is darker: */
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+div.footer .line{
+	margin:2em 0;
+}
+
+/*.continent {
+    width:90em;
+	box-shadow: rgba(0.1), rgba(0.11);
+}
+*/
+.container{
+	background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+    padding-top:0.5em;
+	padding-bottom:2.1em;
+	border:0px solid #FCFCFC;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.container button{
+    border:none;
+    background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	color:#565656;
+	float:left;
+	font-size:110%;
+	font-weight:bold;
+    display: inline;
+    position:static;
+    padding-left:4.55%;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}   
+.container button:hover{
+	color:#bbbbbb;
+	display:inline;
+    position:static;
+	float:left;
+	font-size:110%;
+	font-weight:bold;
+	text-shadow:0 1px 1px black;
+	text-transform:uppercase;
+}
+
+div.nav{
+	background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	padding:0 5px;
+	position:absolute;
+	right:7px;
+	top:50px;
+	width:425px;
+	height:50px;
+	font-size:0.23em;
+	
+	border:1px solid #FCFCFC;
+
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+	box-shadow:0 1px 1px #333333;
+}
+
+/* The clearfix hack to clear the floats: */
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* The navigation styling: */
+
+div.nav ul li{
+	display:inline;
+}
+
+div.nav ul li a,
+div.nav ul li a:visited{
+	color:#565656;
+	display:block;
+	float:left;
+	font-size:1.35em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}
+
+div.nav ul li a:hover{
+	text-decoration:none;
+	background-color:#f0f0f0;
+}
+
+div.nav, div.article, div.nav ul li a,div.figure{
+	/* Applying CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+/* Article styles: */
+
+#map{
+	height:50em;
+    width: auto;
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/
+    z-index: 0;
+}
+
+.column{
+    float:left;
+    word-wrap: break-word;
+}
+.left{
+    width:70%;
+}
+
+#page{
+	width:100%;
+	margin: 0;
+	padding: 2em,2em,2em,2em;
+	position:relative;
+}
+
+div.figure{
+	border:1px solid #142830;
+
+	height:20%;
+	overflow:hidden;
+	width:95%;
+}
+
+/*=================================*/
+.circle-white {
+    height: 1em; /*change this and the width
+    for the size of your initial circle*/
+    width:1em;
+    border-radius: 50%;
+    /*make it pretty*/
+    background: #fff;
+    color: #000;
+    border: 0.5px solid #000
+}
+.circle-yellow {
+    display: table-cell;
+    height:1em; /*change this and the width
+    for the size of your initial circle*/
+    width:1em;
+    border-radius: 50%;
+    /*make it pretty*/
+    background: #FFFF24;
+    color: #000;
+    border: 0.5px solid #000
+}
+.circle-orange {
+    display: table-cell;
+    height: 1em; /*change this and the width
+    for the size of your initial circle*/
+    width:1em;
+    border-radius: 50%;
+    /*make it pretty*/
+    background: #F58F00;
+    color: #000;
+    border: 0.5px solid #000
+}
+.circle-red{
+    display: table-cell;
+    height:1em; /*change this and the width
+    for the size of your initial circle*/
+    width:1em;
+    border-radius: 50%;
+    /*make it pretty*/
+    background: #FF0000;
+    color: #fff;
+    border: 0.5px solid #000
+}
+.circle-maroon {
+    display: table-cell;
+    height:1em; /*change this and the width
+    for the size of your initial circle*/
+    width:1em;
+    border-radius: 50%;
+    /*make it pretty*/
+    background: #620007;
+    color: #fff;
+    border: 0.5px solid #000
+}
+.circle-black {
+    display: table-cell;
+    height:1em; /*change this and the width
+    for the size of your initial circle*/
+    width:1em;
+    border-radius: 50%;
+    /*make it pretty*/
+    background: #000000;
+    color: #fff;
+    border: 0.5px solid #000
+}
