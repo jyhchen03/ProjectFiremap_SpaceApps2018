@@ -1,5 +1,5 @@
 # Project-Firemap
-Built during the NASA/CSA 2018 Space Apps Hackathon. Visit https://jyhchen03.github.io/JS-Project-Firemap/ or view "index.html" for the completed program, which runs in any browser.
+Built during the NASA/CSA 2018 Space Apps Hackathon. Visit https://jyhchen03.github.io/ProjectFiremap-SpaceApps2018/ or view "index.html" for the completed program, which runs in any browser.
 
 
 
